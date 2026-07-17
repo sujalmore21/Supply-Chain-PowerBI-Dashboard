@@ -1,49 +1,54 @@
 # 📦 Supply Chain Analytics Dashboard | Power BI
 
-> **An interactive Business Intelligence solution built with Power BI to monitor sales, profitability, logistics performance, customer behavior, product performance, and regional business insights.**
+An interactive **Power BI Business Intelligence Dashboard** built to analyze sales, profitability, logistics performance, customer behavior, product performance, and regional trends using real-world supply chain data.
 
 ---
 
 ## 📌 Project Overview
 
-The **Supply Chain Analytics Dashboard** transforms raw supply chain transaction data into meaningful business insights through interactive dashboards and executive reporting.
+This project transforms raw supply chain transaction data into an interactive executive dashboard that enables stakeholders to monitor key business metrics and make data-driven decisions.
 
-The project demonstrates the complete analytics workflow—from data transformation and modeling to DAX calculations and business storytelling—helping stakeholders monitor operational performance and make data-driven decisions.
+The solution demonstrates practical implementation of:
+
+- Data Cleaning
+- Power Query
+- Data Modeling
+- DAX Measures
+- Interactive Dashboards
+- Business Storytelling
 
 ---
 
-## 🎯 Business Objectives
+# 🎯 Business Objectives
 
-This dashboard helps answer critical business questions such as:
+This dashboard answers important business questions such as:
 
-- Which markets generate the highest revenue?
-- Which products contribute the most sales?
+- Which market generates the highest revenue?
+- Which products drive maximum sales?
 - How efficient is the delivery process?
-- Which customer segments drive business growth?
+- Which customer segments contribute the most revenue?
 - Which regions require operational improvements?
-- How profitable is the business across different markets?
+- How profitable is the business?
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠 Tech Stack
 
-| Category | Tools |
-|----------|-------|
-| Visualization | Power BI |
-| Data Preparation | Power Query |
-| Data Modeling | Star Schema |
-| Calculations | DAX |
-| Dataset | DataCo Supply Chain Dataset (CSV) |
+- Microsoft Power BI
+- Power Query
+- DAX
+- Data Modeling
+- CSV Dataset
 
 ---
 
 # 📊 Dashboard Pages
 
-## 📈 1. Executive Overview
+## 1️⃣ Executive Overview
 
-High-level dashboard providing an executive snapshot of overall business performance.
+High-level business overview with KPI cards and executive visualizations.
 
-**Highlights**
+### KPIs
 
 - Total Sales
 - Total Profit
@@ -51,69 +56,67 @@ High-level dashboard providing an executive snapshot of overall business perform
 - Total Customers
 - Profit Margin %
 - Late Delivery %
-- Sales Trend
-- Market Revenue Share
 
-![](Images/executive-overview.jpg)
+![](Supply%20Chain%20Power%20BI%20Project/Images/executive-overview.jpg)
 
 ---
 
-## 🚚 2. Operational Performance
+## 2️⃣ Operational Performance
 
-Focuses on logistics efficiency and shipment performance.
+Monitors shipment efficiency and delivery performance.
 
-**Visuals**
+### Visuals
 
-- Delivery Status Distribution
+- Delivery Status Analysis
 - Shipping Mode Analysis
 - Average Shipping Days
-- Order Status Performance
+- Order Performance
 
-![](Images/operational-performance.jpg)
+![](Supply%20Chain%20Power%20BI%20Project/Images/operational-performance.jpg)
 
 ---
 
-## 📦 3. Product & Customer Performance
+## 3️⃣ Product & Customer Performance
 
-Analyzes product contribution and customer purchasing behavior.
+Analyzes product sales and customer behavior.
 
-**Visuals**
+### Visuals
 
-- Top 5 Products by Sales
-- Top 5 Categories by Sales
+- Top 5 Products
+- Top 5 Categories
 - Revenue by Customer Segment
 - Profit by Department
 
-![](Images/product-customer-dashboard.jpg)
+![](Supply%20Chain%20Power%20BI%20Project/Images/product-customer-dashboard.jpg)
 
 ---
 
-## 🌍 4. Geographic Analysis
+## 4️⃣ Geographic Analysis
 
-Compares performance across different markets.
+Regional comparison of sales and operational performance.
 
-**Visuals**
+### Visuals
 
 - Sales by Market
 - Profit by Market
-- Customers by Market
 - Orders by Market
+- Customers by Market
 
-![](Images/geographic-analysis.jpg)
+![](Supply%20Chain%20Power%20BI%20Project/Images/geographic-analysis.jpg)
 
 ---
 
-## 📋 5. Executive Summary & Business Insights
+## 5️⃣ Executive Summary & Business Insights
 
-A management-focused summary presenting business findings and strategic recommendations.
+Executive-level summary with business recommendations.
 
-**Includes**
+### Includes
 
-- Executive Summary Matrix
-- Business Performance Highlights
-- Strategic Priority Actions
+- Summary Matrix
+- Business Highlights
+- Strategic Recommendations
 
-![](Images/executive-summary.jpg)
+![](Supply%20Chain%20Power%20BI%20Project/Images/executive-summary.jpg)
 
 ---
 
@@ -136,20 +139,20 @@ A management-focused summary presenting business findings and strategic recommen
 
 # 💡 Key Business Insights
 
-- Europe generated the highest overall revenue.
+- Europe generated the highest revenue.
 - USCA achieved the highest profit margin.
-- Pacific Asia recorded the largest customer base.
-- More than half of all shipments experienced delivery delays, highlighting opportunities for logistics optimization.
-- Shipping duration remained operationally stable across all markets.
+- Pacific Asia has the largest customer base.
+- Late deliveries remain the primary operational challenge.
+- Average shipping duration remained stable across all markets.
 
 ---
 
 # 🎯 Strategic Recommendations
 
-- Improve logistics planning to reduce late deliveries.
+- Improve logistics efficiency to reduce late deliveries.
 - Increase investment in high-performing markets.
 - Expand inventory for top-selling products.
-- Benchmark USCA's profitability strategy across other markets.
+- Benchmark USCA's operational strategy across other markets.
 - Implement automated shipment tracking for improved customer experience.
 
 ---
@@ -158,37 +161,43 @@ A management-focused summary presenting business findings and strategic recommen
 
 The original dataset (~91 MB) is hosted externally to keep this repository lightweight.
 
-### 📥 Download Dataset
+## Download Dataset
 
-**Google Drive**
+Google Drive:
 
 https://drive.google.com/file/d/13TQVqpzTXtxx3jOsoEsVGZ0F_cbHgJI4/view?usp=sharing
 
-After downloading, place the dataset inside the **Dataset** folder before opening the Power BI (.pbix) file.
+After downloading, place the dataset inside:
+
+```
+Supply Chain Power BI Project/Dataset/
+```
+
+before opening the Power BI (.pbix) file.
 
 ---
 
 # 📁 Repository Structure
 
 ```
-Supply Chain Power BI Project
-│
-├── Dashboard
-│   └── Supply Chain Dashboard.pbix
-│
-├── Dataset
-│   └── README.md
-│
-├── Images
-│   ├── executive-overview.jpg
-│   ├── operational-performance.jpg
-│   ├── product-customer-dashboard.jpg
-│   ├── geographic-analysis.jpg
-│   └── executive-summary.jpg
+Supply-Chain-PowerBI-Dashboard
 │
 ├── README.md
-├── LICENSE
-└── .gitignore
+│
+└── Supply Chain Power BI Project
+    │
+    ├── Dashboard
+    │   └── Supply Chain Dashboard.pbix
+    │
+    ├── Dataset
+    │   └── README.md
+    │
+    └── Images
+        ├── executive-overview.jpg
+        ├── operational-performance.jpg
+        ├── product-customer-dashboard.jpg
+        ├── geographic-analysis.jpg
+        └── executive-summary.jpg
 ```
 
 ---
@@ -198,32 +207,34 @@ Supply Chain Power BI Project
 - Data Cleaning
 - Data Transformation
 - Data Modeling
-- DAX Measures
-- KPI Design
-- Business Intelligence
-- Dashboard Development
+- DAX
+- Power Query
+- Dashboard Design
+- KPI Development
 - Executive Reporting
-- Business Storytelling
+- Business Intelligence
 - Supply Chain Analytics
 
 ---
 
-# 👨‍💻 About the Author
+# 👨‍💻 Author
 
-## **Sujal Pradeep More**
+## Sujal Pradeep More
 
-Aspiring **Data Analyst** passionate about transforming raw data into meaningful business insights using Power BI, SQL, Python, Excel, and Tableau.
+Aspiring Data Analyst passionate about transforming data into actionable business insights.
 
-### Connect with me
+**LinkedIn**
 
-- 💼 LinkedIn: https://www.linkedin.com/in/sujal-more
-- 💻 GitHub: https://github.com/sujalmore21
-- 📧 Email: sujalmore.ac@gmail.com
+https://www.linkedin.com/in/sujal-more
+
+**GitHub**
+
+https://github.com/sujalmore21
+
+**Email**
+
+sujalmore.ac@gmail.com
 
 ---
 
-## ⭐ Support
-
-If you found this project useful or informative, consider giving this repository a ⭐.
-
-It motivates me to build and share more real-world analytics projects.
+## ⭐ If you found this project helpful, consider giving this repository a Star.
